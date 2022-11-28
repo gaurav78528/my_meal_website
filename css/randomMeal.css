@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+#container {
+  height: auto;
+  border: 2px solid black;
+  color: white;
+  background-image: linear-gradient(black, rgb(160, 131, 94));
+  padding-bottom: 60px;
+}
+#container > h1 {
+  text-align: center;
+  margin-top: 20px;
+  color: white;
+}
+#random_meal {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: auto;
+  /* border: 1px solid grey; */
+  margin-top: 20px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#meal_image {
+  width: 58%;
+  height: 100%;
+  /* border: 2px solid red; */
+}
+#meal_image img {
+  height: 100%;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+#meal_desc {
+  /* border: 2px solid teal; */
+  width: 40%;
+  /* padding: 0px 20px; */
+  padding-bottom: 30px;
+}
+#meal_desc > div:first-child {
+  /* border: 2px solid whitesmoke; */
+  height: auto;
+  padding-bottom: 30px;
+  border-bottom: 2px solid white;
+}
+#meal_desc > div:first-child > h2 {
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+#meal_desc > div:first-child > h3 {
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+#meal_desc > div:first-child > a {
+  text-decoration: none;
+  color: white;
+  border: 1px solid white;
+  padding: 5px 20px;
+  border-radius: 5px;
+  font-weight: 500;
+  font-style: oblique;
+  /* margin-top: 88px; */
+}
+#meal_desc > div:first-child > a:hover {
+  color: burlywood;
+  border-color: burlywood;
+}
+#meal_desc > i {
+  font-size: 25px;
+  font-weight: 500;
+}
+#meal_desc > p {
+  text-align: justify;
+  /* padding: 0 10px; */
+  padding-right: 10px;
+  /* padding-bottom: 10px; */
+  height: 400px;
+  margin-top: 20px;
+  overflow-y: scroll;
+}
+#meal_desc > p::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+#meal_desc > p::-webkit-scrollbar-track {
+  /* background: #f1f1f1; */
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+/* Handle */
+#meal_desc > p::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+#meal_desc > p::-webkit-scrollbar-thumb:hover {
+  background: #555;
+  cursor: pointer;
+}

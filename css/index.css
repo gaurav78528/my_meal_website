@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+header {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1505935428862-770b6f24f629?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2067&q=80");
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.row {
+  /* border: 2px solid yellow; */
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  height: 80px;
+  width: auto;
+  margin-left: 2%;
+}
+.main_nav {
+  width: 40%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.main_nav li {
+  list-style: none;
+}
+.main_nav li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 5px;
+}
+.main_nav li a:hover {
+  border-bottom: 2px solid burlywood;
+  color: burlywood;
+}
+.main-content-header {
+  /* width: 100%; */
+  /* border: 2px solid red; */
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+.main-content-header h1 {
+  /* display: block; */
+  letter-spacing: 2px;
+  word-spacing: 4px;
+  line-height: 40px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.btn {
+  border: 1px solid white;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 15px;
+  font-weight: 600;
+}
+.btn:hover {
+  border: 1px solid burlywood;
+  color: burlywood;
+  /* font-weight: 600; */
+  /* text-decoration: none; */
+  /* padding: 10px 20px; */
+  /* border-radius: 15px; */
+}

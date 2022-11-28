@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Meal</title>
+    <link rel="stylesheet" href="/css/index.css" />
+  </head>
+  <body>
+    <header id="header">
+      <!-- <nav>
+        <div class="row">
+          <img src="logo.png" alt="logo" class="logo" />
+
+          <ul class="main_nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="randomMeal.html">Random Meal</a></li>
+            <li><a href="signup.html">SignUp</a></li>
+            <li><a href="login.html">LogIn</a></li>
+          </ul>
+        </div>
+      </nav> -->
+    </header>
+    <div class="main-content-header">
+      <h1>
+        Welcome to your meal website. <br />
+        Enjoy your meal with us.
+      </h1>
+      <a href="search.html" class="btn">Search Meal</a>
+    </div>
+  </body>
+</html>
+<script type="module">
+  import navbar from "./components/navbar.js";
+
+  let head = document.getElementById("header");
+  head.innerHTML = navbar();
+</script>
+<script src="/script/index.js"></script>
